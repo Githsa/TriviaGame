@@ -1,0 +1,115 @@
+body {
+    font-family: 'Space Mono', monospace;
+    /*padding-bottom: 70px;*/
+    font-weight: 400;
+    /*FOOTER RULES*/
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+#gitIcon {
+    line-height: 55px;
+}
+
+
+
+
+.container {
+    height: 1010px;
+    
+}
+
+#header {
+    color: #fff;
+    font-family: 'Monoton', cursive;
+    font-size: 125px;
+}
+
+#mainCover {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 1010px;
+    width: 100%;
+}
+
+#introCard {
+    color: #fff;
+    font-size: 30px;
+    margin: 30px 0;
+    background-color: transparent;
+}
+
+#introSection {
+    margin-top: 60px;
+}
+
+
+
+
+
+#buttonRow {
+    margin-top: 150px;
+	display: inline-block;
+	
+}
+
+.btn-large {
+    border-radius: 6px;
+    border: #a3452e 4px solid;
+    line-height: 45px;
+    color: #fff;
+    background-color: red;
+}
+
+
+
+
+
+#questionSpace {
+    color: #fff;
+    margin-top: 40px;
+    
+    padding: 10px;
+    width: 1000px;
+    height: 500px;
+}
+
+#question {
+    font-size: 37px;
+}
+
+
+
+
+#timer {
+    color: #e74c3c;
+    font-size: 47px;
+}
+
+
+
+
+#choices {
+    font-size: 23px;
+}
+
+.pickAnswer {
+    border: solid 5px #fff;
+}
+
+.pickAnswer, .pickAnswer:hover {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.pickAnswer:hover {
+    border: solid 5px #f1c40f;
+    cursor: pointer;
+}
